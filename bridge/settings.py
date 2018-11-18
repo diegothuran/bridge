@@ -96,6 +96,7 @@ REST_FRAMEWORK = {
 }
 
 CORS_ORIGIN_WHITELIST = (
+    'null',
     '*'
 )
 
