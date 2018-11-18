@@ -97,7 +97,13 @@ REST_FRAMEWORK = {
 
 CORS_ORIGIN_WHITELIST = (
     'null',
-    '*'
+    '*',
+    'http://localhost:63343',
+    'http://localhost:63343:5000/*',
+    'http://localhost:63343:8000/*',
+    'http://34.234.188.90/*'
+    'http://34.234.188.90:5000/*'
+
 )
 
 
