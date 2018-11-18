@@ -96,25 +96,8 @@ REST_FRAMEWORK = {
 }
 
 CORS_ORIGIN_WHITELIST = (
-    '*.trustvox.com.br',
-    'trustvox.github.io',
-    'localhost:8000',
-    'http://34.234.188.90',
     '*'
 )
-
-CORS_ALLOW_HEADERS = (
-    'accept',
-    'accept-encoding',
-    'authorization',
-    'content-type',
-    'dnt',
-    'origin',
-    'user-agent',
-    'x-csrftoken',
-    'x-requested-with',
-)
-
 
 
 # Password validation
