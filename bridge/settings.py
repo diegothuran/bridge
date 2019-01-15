@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'rest_framework',
-    
+    'corsheaders',
     'django_filters',
     
     'index_connection.apps.IndexConnectionConfig',
@@ -77,7 +77,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'bridge.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
@@ -100,7 +99,7 @@ REST_FRAMEWORK = {
     ],
 }
 
-#CORS_ORIGIN_ALLOW_ALL = True
+CORS_ORIGIN_ALLOW_ALL = True
 #SECURE_PROXY_SSL_HEADER = True
 #SESSION_COOKIE_SECURE = True
 #CSRF_COOKIE_SECURE = True
